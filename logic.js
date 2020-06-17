@@ -10,10 +10,11 @@
     const buttonA = document.getElementById('answerButtonA')
     let correctAnswers = 0;
     const nextButton = document.getElementById('next')
+    const nextButton2 = document.getElementById('next2')
     const wrapper2 = document.getElementById('wrapper-2')
+    const wrapper3 = document.getElementById('wrapper-3')
     const buttonB2 = document.getElementById('answerButtonB2')
     const buttonC3 = document.getElementById('answerButtonC3')
-    const buttonA4 = document.getElementById('answerButtonA4')
     //variable containing an array with the various questions
     const myQuestion1 = [
         {
@@ -78,6 +79,12 @@
         console.log(correctAnswers);
     })
 
+    //nextButton2 will bring user to third question
+    nextButton2.addEventListener('click', function () {
+        wrapper2.style.display = 'none';
+        wrapper3.style.display = 'block';
+    })
+
     buttonC3.addEventListener('click', function (){
         alert("you got the answer correct, please hit next question")
         correctAnswers++;
@@ -96,5 +103,5 @@
     //use set item in order to store that variable to the browsers local storage 
      
     
-    
+
     //Imma try something new Imma create a function called next Question is ran in an addEventListner it will hide the page and d

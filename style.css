@@ -1,0 +1,44 @@
+h5{
+    font-family: fira-sans,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #3a243b;
+    margin: 1rem ;
+}
+h4{
+    font-family: fira-sans,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #3a243b; 
+    text-align: center;
+}
+p{
+    font-family: fira-sans,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+.header{
+    color: #303030;
+    background-color: #CDCDCD;
+}
+button{
+    font-family: fira-sans,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #3a243b;
+    text-align: center;
+}
+#main-content{
+    margin: 10rem 15rem;
+    display: block;
+}
+.wrapper, .wrapper-2, .wrapper-3, .wrapper-4{
+    display: none;
+}
+.next{
+    margin: 1rem;
+}
+.btn .btn-secondary .btn-sm{
+    margin: 1rem
+}

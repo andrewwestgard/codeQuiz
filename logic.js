@@ -91,17 +91,11 @@
         console.log(correctAnswers);
     })
 
-    buttonA4.addEventListener('click', function (){
-        alert("you got the answer correct, please hit next question")
-        correctAnswers++;
-        console.log(correctAnswers);
-    })
-
     //Append the correct answer variable to the page
         //let correctAnswers = document.createElement('div')
         //appendChild the value of the correctAnswer variable
     //use set item in order to store that variable to the browsers local storage 
      
-    
+    //use alerts to alert user their answer is wrong
 
     //Imma try something new Imma create a function called next Question is ran in an addEventListner it will hide the page and d
